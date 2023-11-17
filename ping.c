@@ -13,9 +13,7 @@
 #include <netinet/in.h>
 #include <netinet/ip.h>
 
-#define ICMP_HDR_SIZ 8
 #define ICMP_BUF_SIZ 1000
-
 #define ECHO_REPLY 0
 #define ECHO_REQ 8
 
@@ -102,7 +100,7 @@ int main(int argc, char **argv)
     char echo_reply[ICMP_BUF_SIZ];
     ssize_t rep_siz;
 
-    // Stop this loop with with SIGINT
+    // Stop this loop with SIGINT
     while (1)
     {
         icmph = (struct icmph *)echo_req;
