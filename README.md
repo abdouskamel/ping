@@ -14,4 +14,4 @@ sudo ./ping google.com
 
 Note: root privileges are necessary since we use raw IPv4 sockets in the code (sorry!).
 
-Note bis: hosts may not accept ICMP traffic from the internet.
+Note bis: some hosts may not accept ICMP traffic from the internet.
