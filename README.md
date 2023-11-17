@@ -1,6 +1,6 @@
-# Ping: ICMP ECHO_REQUEST
+# Ping: ICMP ECHO_REQUEST/ECHO_REPLY
 
-Low level implementation of the ping command. Given a host, the program resolves the host to an IPv4 address, creates a raw IPv4 socket, sends ICMP echo requests and waits for ICMP echo replies.
+Implementation of the ping command from scratch. Given a host, the program resolves the host to an IPv4 address, creates a raw IPv4 socket, sends ICMP echo requests and waits for ICMP echo replies.
 
 Compile the program by running:
 ```
